@@ -9,7 +9,7 @@ class CoachingController < ApplicationController
 
 private
 
- def coach_answer(your_message)
+def coach_answer(your_message)
     if your_message.downcase == "i am going to work right now!"
       ''
     elsif your_message.end_with?("?")
